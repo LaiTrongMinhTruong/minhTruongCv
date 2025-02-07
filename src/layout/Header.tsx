@@ -8,7 +8,7 @@ import Profile from "./Profile";
 
 const Header = () => {
   return (
-    <div className="absolute w-3/4 m-auto h-3/4 overflow-hidden top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-green-400">
+    <div className="absolute w-3/4 m-auto h-3/4 overflow-y-hidden top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-green-400">
       <ul className="fixed flex flex-col gap-4 w-fit bg-white p-4 rounded-2xl">
         <li>
           <NavLink
