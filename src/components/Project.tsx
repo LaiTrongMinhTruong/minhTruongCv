@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ProjectType from "../types/ProjectType";
+import { motion } from "motion/react";
 
 const Project = () => {
   const projects: ProjectType[] = [
@@ -92,7 +93,13 @@ const Project = () => {
       ? projects
       : projects.filter((project) => project.type === filter);
   return (
-    <div className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full">
+    <motion.div
+      className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full"
+      initial={{ opacity: 0, left: "-50%", right: "50%" }}
+      animate={{ opacity: 1, left: "33.333%", right: "0" }}
+      exit={{ opacity: 0, left: "-50%", right: "50%" }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="flex flex-row justify-between items-center">
         <h3 className="my-4 font-medium text-xl">
           <span className="text-green-500">Recent</span>
@@ -179,7 +186,7 @@ const Project = () => {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

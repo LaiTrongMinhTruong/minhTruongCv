@@ -3,9 +3,16 @@ import CardTravelIcon from "@mui/icons-material/CardTravel";
 import FlagIcon from "@mui/icons-material/Flag";
 import SchoolIcon from "@mui/icons-material/School";
 import Slider from "@mui/material/Slider";
+import { motion } from "motion/react";
 const Skill = () => {
   return (
-    <div className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full">
+    <motion.div
+      className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full"
+      initial={{ opacity: 0, left: "-50%", right: "50%" }}
+      animate={{ opacity: 1, left: "33.333%", right: "0" }}
+      exit={{ opacity: 0, left: "-50%", right: "50%" }}
+      transition={{ duration: 0.5 }}
+    >
       <h3 className="my-4 font-medium text-xl text-green-500">Resume</h3>
       <div className="flex flex-row gap-4">
         <section className="flex flex-col gap-4 items-center">
@@ -165,7 +172,7 @@ const Skill = () => {
           </div>
         </section>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

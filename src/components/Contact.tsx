@@ -1,9 +1,7 @@
 import { SubmitHandler, useForm } from "react-hook-form";
-type FormValues = {
-  fullName: string;
-  email: string;
-  message: string;
-};
+import { motion } from "motion/react";
+import FormValues from "../types/FormValues";
+
 const Contact = () => {
   const {
     register,
@@ -16,7 +14,13 @@ const Contact = () => {
     reset();
   };
   return (
-    <div className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full">
+    <motion.div
+      className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full"
+      initial={{ opacity: 0, left: "-50%", right: "50%" }}
+      animate={{ opacity: 1, left: "33.333%", right: "0" }}
+      exit={{ opacity: 0, left: "-50%", right: "50%" }}
+      transition={{ duration: 0.5 }}
+    >
       <h3 className="my-4 font-medium text-xl">
         <span className="text-green-500">Get</span>
         <span className="text-gray-500"> in Touch</span>
@@ -134,7 +138,7 @@ const Contact = () => {
           SEND MESSAGE →
         </button>
       </form>
-    </div>
+    </motion.div>
   );
 };
 
