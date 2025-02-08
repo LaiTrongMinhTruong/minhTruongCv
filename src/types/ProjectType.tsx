@@ -3,6 +3,7 @@ type ProjectType = {
   title: string;
   type: string;
   imageUrl: string;
+  description: string;
 };
 
 export default ProjectType;
