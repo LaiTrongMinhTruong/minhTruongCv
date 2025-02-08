@@ -92,7 +92,7 @@ const Project = () => {
       ? projects
       : projects.filter((project) => project.type === filter);
   return (
-    <div className="absolute left-96 right-0 bg-white rounded-2xl overflow-y-scroll p-4">
+    <div className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full">
       <div className="flex flex-row justify-between items-center">
         <h3 className="my-4 font-medium text-xl">
           <span className="text-green-500">Recent</span>

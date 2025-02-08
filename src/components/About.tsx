@@ -7,7 +7,7 @@ import ServiceChild from "./ServiceChild";
 
 const About = () => {
   return (
-    <div className="absolute left-96 right-0 bg-white rounded-2xl overflow-y-scroll p-4">
+    <div className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full">
       <h3 className="my-4 font-medium text-xl">
         <span className="text-green-500">About</span>
         <span className="text-gray-500"> Me</span>

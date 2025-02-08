@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   document.title = "Lại Trọng Minh Trường";
   return (
-    <div className="w-screen h-screen bg-gray-700">
+    <div className="w-screen h-screen bg-green-200">
       <Outlet />
     </div>
   );

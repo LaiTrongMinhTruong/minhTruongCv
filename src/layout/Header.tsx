@@ -4,11 +4,11 @@ import AlternateEmailOutlinedIcon from "@mui/icons-material/AlternateEmailOutlin
 import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined";
 import WebIcon from "@mui/icons-material/Web";
 import { NavLink, Outlet } from "react-router";
-import Profile from "./Profile";
+import Profile from "../components/Profile";
 
 const Header = () => {
   return (
-    <div className="absolute w-3/4 m-auto h-3/4 overflow-y- top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-green-400">
+    <div className="absolute w-3/4 m-auto h-3/4 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-transparent">
       <ul className="fixed flex flex-col gap-4 w-fit bg-white p-4 rounded-2xl">
         <li>
           <NavLink

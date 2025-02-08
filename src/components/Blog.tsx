@@ -1,6 +1,6 @@
 const Blog = () => {
   return (
-    <div className="absolute left-96 right-0 bg-white rounded-2xl overflow-y-scroll p-4">
+    <div className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full">
       <h3 className="my-4 font-medium text-xl text-green-500">Blog</h3>
       <div className="flex flex-row flex-wrap gap-4 justify-evenly">
         <div className="w-2/5 flex flex-col gap-2 justify-center items-center">
