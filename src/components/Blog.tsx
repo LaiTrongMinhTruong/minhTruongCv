@@ -12,7 +12,7 @@ const Blog = () => {
       <div className="flex flex-row flex-wrap gap-4 justify-evenly">
         <div className="w-2/5 flex flex-col gap-2 justify-center items-center">
           <div className="relative flex justify-center items-center">
-            <img src="/src/assets/blog01.png" alt="" />
+            <img src="https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/blog01.png?raw=true" alt="" />
             <div className="absolute w-full h-full bg-opacity-60 opacity-0 hover:opacity-100 bg-black z-10 flex justify-center items-center">
               <button className="text-green-500 font-medium text-xl tracking-wider border-2 border-green-500 px-2 rounded-xl">
                 View Blog
@@ -33,7 +33,7 @@ const Blog = () => {
         </div>
         <div className="w-2/5 flex flex-col gap-2 justify-center items-center">
           <div className="relative flex justify-center items-center">
-            <img src="/src/assets/blog02.png" alt="" />
+            <img src="https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/blog02.png?raw=true" alt="" />
             <div className="absolute w-full h-full bg-opacity-60 opacity-0 hover:opacity-100 bg-black z-10 flex justify-center items-center">
               <button className="text-green-500 font-medium text-xl tracking-wider border-2 border-green-500 px-2 rounded-xl">
                 View Blog
@@ -54,7 +54,7 @@ const Blog = () => {
         </div>
         <div className="w-2/5 flex flex-col gap-2 justify-center items-center">
           <div className="relative flex justify-center items-center">
-            <img src="/src/assets/blog03.png" alt="" />
+            <img src="https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/blog03.png?raw=true" alt="" />
             <div className="absolute w-full h-full bg-opacity-60 opacity-0 hover:opacity-100 bg-black z-10 flex justify-center items-center">
               <button className="text-green-500 font-medium text-xl tracking-wider border-2 border-green-500 px-2 rounded-xl">
                 View Blog
@@ -74,7 +74,7 @@ const Blog = () => {
         </div>
         <div className="w-2/5 flex flex-col gap-2 justify-center items-center">
           <div className="relative flex justify-center items-center">
-            <img src="/src/assets/blog04.png" alt="" />
+            <img src="https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/blog04.png?raw=true" alt="" />
             <div className="absolute w-full h-full bg-opacity-60 opacity-0 hover:opacity-100 bg-black z-10 flex justify-center items-center">
               <button className="text-green-500 font-medium text-xl tracking-wider border-2 border-green-500 px-2 rounded-xl">
                 View Blog
@@ -94,7 +94,7 @@ const Blog = () => {
         </div>
         <div className="w-2/5 flex flex-col gap-2 justify-center items-center">
           <div className="relative flex justify-center items-center">
-            <img src="/src/assets/blog05.png" alt="" />
+            <img src="https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/blog05.png?raw=true" alt="" />
             <div className="absolute w-full h-full bg-opacity-60 opacity-0 hover:opacity-100 bg-black z-10 flex justify-center items-center">
               <button className="text-green-500 font-medium text-xl tracking-wider border-2 border-green-500 px-2 rounded-xl">
                 View Blog
@@ -115,7 +115,7 @@ const Blog = () => {
         </div>
         <div className="w-2/5 flex flex-col gap-2 justify-center items-center">
           <div className="relative flex justify-center items-center">
-            <img src="/src/assets/blog06.png" alt="" />
+            <img src="https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/blog06.png?raw=true" alt="" />
             <div className="absolute w-full h-full bg-opacity-60 opacity-0 hover:opacity-100 bg-black z-10 flex justify-center items-center">
               <button className="text-green-500 font-medium text-xl tracking-wider border-2 border-green-500 px-2 rounded-xl">
                 View Blog

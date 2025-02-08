@@ -139,7 +139,7 @@ const About = () => {
           clean, efficient, and impactful code that makes a difference.
           <span className="font-bold text-2xl">"</span>
         </p>
-        <Avatar alt="Lai Trong Minh Truong" src="/src/assets/avt.png" />
+        <Avatar alt="Lai Trong Minh Truong" src="https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/avt.png?raw=true" />
         <p className="font-bold text-lg italic">Lai Trong Minh Truong</p>
         <p className="font-light italic text-base text-gray-500">
           Web developer

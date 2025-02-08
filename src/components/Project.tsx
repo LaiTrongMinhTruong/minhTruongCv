@@ -8,7 +8,7 @@ const Project = () => {
       id: 1,
       title: "NODE Branding Identity Design",
       type: "Image",
-      imageUrl: "/src/assets/project01.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project01.png?raw=true",
       description:
         "A comprehensive branding project for NODE, including logo design, color palette, and typography to establish a strong visual identity.",
     },
@@ -16,7 +16,7 @@ const Project = () => {
       id: 2,
       title: "Interactive Product Launch Video",
       type: "Video",
-      imageUrl: "/src/assets/project02.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project02.png?raw=true",
       description:
         "Created an engaging promotional video for a new product launch, featuring dynamic animations and customer testimonials.",
     },
@@ -24,7 +24,7 @@ const Project = () => {
       id: 3,
       title: "Ambient Music Composition for Meditation App",
       type: "Music",
-      imageUrl: "/src/assets/project03.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project03.png?raw=true",
       description:
         "Composed and produced a series of ambient tracks designed to enhance relaxation and focus for a meditation application.",
     },
@@ -32,7 +32,7 @@ const Project = () => {
       id: 4,
       title: "Content Strategy for Tech Blog",
       type: "Content",
-      imageUrl: "/src/assets/project04.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project04.png?raw=true",
       description:
         "Developed a content strategy and wrote articles for a tech blog, focusing on emerging technologies and industry trends.",
     },
@@ -40,7 +40,7 @@ const Project = () => {
       id: 5,
       title: "Minimalist Photography Portfolio",
       type: "Image",
-      imageUrl: "/src/assets/project05.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project05.png?raw=true",
       description:
         "Curated a minimalist photography portfolio showcasing architectural and landscape photography with a focus on clean lines and composition.",
     },
@@ -48,7 +48,7 @@ const Project = () => {
       id: 6,
       title: "Corporate Training Video Series",
       type: "Video",
-      imageUrl: "/src/assets/project06.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project06.png?raw=true",
       description:
         "Produced a series of training videos for corporate clients, covering topics from leadership skills to software tutorials.",
     },
@@ -56,7 +56,7 @@ const Project = () => {
       id: 7,
       title: "Original Soundtrack for Indie Game",
       type: "Music",
-      imageUrl: "/src/assets/project07.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project07.png?raw=true",
       description:
         "Composed an original soundtrack for an indie game, blending electronic and orchestral elements to match the game's unique aesthetic.",
     },
@@ -64,7 +64,7 @@ const Project = () => {
       id: 8,
       title: "Social Media Content Calendar",
       type: "Content",
-      imageUrl: "/src/assets/project08.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project08.png?raw=true",
       description:
         "Designed and implemented a social media content calendar for a lifestyle brand, increasing engagement and follower growth.",
     },
@@ -72,7 +72,7 @@ const Project = () => {
       id: 9,
       title: "Urban Street Photography Exhibition",
       type: "Image",
-      imageUrl: "/src/assets/project09.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project09.png?raw=true",
       description:
         "Organized and exhibited a collection of urban street photography, capturing the vibrancy and diversity of city life.",
     },
@@ -80,7 +80,7 @@ const Project = () => {
       id: 10,
       title: "Explainer Video for Startup",
       type: "Video",
-      imageUrl: "/src/assets/project10.png",
+      imageUrl: "https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/project10.png?raw=true",
       description:
         "Created an explainer video for a tech startup, simplifying complex concepts into an easily digestible format for potential investors.",
     },
