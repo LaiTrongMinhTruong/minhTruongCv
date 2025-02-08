@@ -1,73 +1,67 @@
 import { useState } from "react";
-
-type Project = {
-  id: number;
-  title: string;
-  type: string;
-  imageUrl: string;
-};
+import ProjectType from "../types/ProjectType";
 
 const Project = () => {
-  const projects: Project[] = [
+  const projects: ProjectType[] = [
     {
       id: 1,
       title: "NODE Branding Mockup",
       type: "Image",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project01.png",
     },
     {
       id: 2,
       title: "Project 2",
       type: "Video",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project02.png",
     },
     {
       id: 3,
       title: "Project 3",
       type: "Music",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project03.png",
     },
     {
       id: 4,
       title: "Project 4",
       type: "Content",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project04.png",
     },
     {
       id: 5,
       title: "Project 5",
       type: "Image",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project05.png",
     },
     {
       id: 6,
       title: "Project 6",
       type: "Video",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project06.png",
     },
     {
       id: 7,
       title: "Project 7",
       type: "Music",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project07.png",
     },
     {
       id: 8,
       title: "Project 8",
       type: "Content",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project08.png",
     },
     {
       id: 9,
       title: "Project 9",
       type: "Image",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project09.png",
     },
     {
       id: 10,
       title: "Project 10",
       type: "Video",
-      imageUrl: "https://via.placeholder.com/150",
+      imageUrl: "/src/assets/project10.png",
     },
   ];
 
@@ -78,10 +72,11 @@ const Project = () => {
       ? projects
       : projects.filter((project) => project.type === filter);
   return (
-    <div className="p-5 font-sans">
-      <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
-        Recent Works
-      </h1>
+    <div className="absolute left-96 right-0 bg-white rounded-2xl overflow-y-scroll p-4">
+      <h3 className="my-4 font-medium text-xl">
+        <span className="text-green-500">Recent</span>
+        <span className="text-gray-500"> Works</span>
+      </h3>
 
       <div className="flex justify-center space-x-4 mb-8">
         <button
