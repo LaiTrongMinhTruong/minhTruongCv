@@ -1,5 +1,5 @@
-import { SubmitHandler, useForm } from "react-hook-form";
 import { motion } from "motion/react";
+import { SubmitHandler, useForm } from "react-hook-form";
 import FormValues from "../types/FormValues";
 
 const Contact = () => {
@@ -15,22 +15,22 @@ const Contact = () => {
   };
   return (
     <motion.div
-      className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll p-4 h-full"
+      className="absolute left-1/3 right-0 bg-white rounded-2xl overflow-y-scroll h-full"
       initial={{ opacity: 0, left: "-50%", right: "50%" }}
       animate={{ opacity: 1, left: "33.333%", right: "0" }}
       exit={{ opacity: 0, left: "-50%", right: "50%" }}
       transition={{ duration: 0.5 }}
     >
-      <h3 className="my-4 font-medium text-xl">
+      <h3 className="my-4 font-medium text-xl p-4">
         <span className="text-green-500">Get</span>
         <span className="text-gray-500"> in Touch</span>
       </h3>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.5480543236886!2d107.80372561051139!3d11.552906888599711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3173f655f4e3120f%3A0xbdf50393472b3c94!2zUXXhuqNuZyBUcsaw4budbmcgMjggVGjDoW5nIDM!5e1!3m2!1svi!2s!4v1739021223340!5m2!1svi!2s"
         loading="lazy"
-        className="w-full h-80 rounded-xl"
+        className="w-full h-80 rounded-xl p-4"
       ></iframe>
-      <ul className="flex flex-row gap-4 my-4">
+      <ul className="flex flex-row gap-4 my-4 p-4">
         <li className="flex flex-row gap-2 justify-between w-1/2 h-fit border border-gray-200 p-2 rounded-lg">
           <p className="bg-green-500 text-white px-2 rounded-lg">Phone_____</p>
           <p className="font-light tracking-wider text-base">0345564926</p>
@@ -42,12 +42,12 @@ const Contact = () => {
           </p>
         </li>
       </ul>
-      <h3 className="my-4 font-medium text-xl">
+      <h3 className="my-4 font-medium text-xl p-4">
         <span className="text-green-500">Contact</span>
         <span className="text-gray-500"> form</span>
       </h3>
 
-      <form onSubmit={handleSubmit(onSubmit)}>
+      <form onSubmit={handleSubmit(onSubmit)} className="p-4">
         <div className="mb-4">
           <label
             htmlFor="website-admin"
@@ -75,7 +75,11 @@ const Contact = () => {
               {...register("fullName", { required: "Full Name is required" })}
             />
           </div>
-          {errors.fullName && <span className="text-red-500 text-sm italic font-medium">{errors.fullName.message}</span>}
+          {errors.fullName && (
+            <span className="text-red-500 text-sm italic font-medium">
+              {errors.fullName.message}
+            </span>
+          )}
         </div>
         <div className="mb-4">
           <label
@@ -111,7 +115,11 @@ const Contact = () => {
               })}
             />
           </div>
-          {errors.email && <span className="text-red-500 text-sm italic font-medium">{errors.email.message}</span>}
+          {errors.email && (
+            <span className="text-red-500 text-sm italic font-medium">
+              {errors.email.message}
+            </span>
+          )}
         </div>
         <div className="mb-4">
           <label
@@ -132,12 +140,23 @@ const Contact = () => {
               },
             })}
           ></textarea>
-          {errors.message && <span className="text-red-500 text-sm italic font-medium">{errors.message.message}</span>}
+          {errors.message && (
+            <span className="text-red-500 text-sm italic font-medium">
+              {errors.message.message}
+            </span>
+          )}
         </div>
-        <button type="submit" className="bg-green-500 text-white px-4 py-2 rounded-lg font-medium tracking-wider">
+        <button
+          type="submit"
+          className="bg-green-500 text-white px-4 py-2 rounded-lg font-medium tracking-wider"
+        >
           SEND MESSAGE →
         </button>
       </form>
+      <footer className="w-full h-16 bg-green-500 dark:bg-gray-800 mt-4 flex flex-col justify-center items-center">
+        <p className="text-white font-bold tracking-wider">I would like to thank Mr. Luan for his enthusiastic guidance.</p>
+        <p className="text-white font-bold tracking-wider">Lai Trong Minh Truong</p>
+      </footer>
     </motion.div>
   );
 };

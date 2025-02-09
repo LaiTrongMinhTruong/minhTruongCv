@@ -8,6 +8,7 @@ import Profile from "../components/Profile";
 
 const Header = () => {
   return (
+    <div className="w-screen h-screen bg-gradient-to-br from-green-500 to-green-300">
     <div className="absolute w-3/4 m-auto h-3/4 top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-transparent">
       <ul className="fixed flex flex-col gap-4 w-fit bg-white p-4 rounded-2xl">
         <li>
@@ -78,6 +79,7 @@ const Header = () => {
       </ul>
       <Profile />
       <Outlet />
+    </div>
     </div>
   );
 };
