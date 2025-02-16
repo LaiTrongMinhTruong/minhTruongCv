@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <div className="absolute left-24 w-1/4 bg-white rounded-2xl h-full flex flex-col justify-between">
       <img
-        src="https://scontent.fsgn13-2.fna.fbcdn.net/v/t39.30808-6/469382877_610839621437839_8111982572644297805_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=2RE-pyZVL5AQ7kNvgGRfnFJ&_nc_oc=Adg6Jh3Mqbv3ex28IqqX5AAqc1Hwnyc_5Cyhc06YsRy7j5ALM661LROsw7w_gOLtXFDqh2Mg-soAAhQEJYtcQ6xG&_nc_zt=23&_nc_ht=scontent.fsgn13-2.fna&_nc_gid=ApdERlfNUNgiAZFaByOTUZV&oh=00_AYDW8pfz8YkCShDnLHXI9MrViZa0OXczxw1_FKLZzUmVUA&oe=67ACE122"
+        src="https://github.com/LaiTrongMinhTruong/minhTruongCv/blob/master/src/assets/avatarMain.jpg?raw=true"
         alt="Lai Trong Minh Truong"
         className=" w-full rounded-t-2xl"
       />
